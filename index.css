@@ -1,0 +1,84 @@
+
+
+/* body of home page(index.htlm) */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+}
+.h1{
+    height: 10%;
+    font-size: 4rem;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 50px;
+}
+.profile{
+    max-width: 700px;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.profile img{
+    height: 30vh;
+    border-radius: 50%;
+    margin: 10px 10px 30px 10px;
+    transition: all 0.3s ease-in;
+}
+.profile img:hover{
+    box-shadow: 0px 0px 30px 5px rgba(254, 254, 4, 0.805),0px 0px 30px 5px rgba(92, 92, 0, 0.599);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.courses{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1500px;
+    width: 80%;
+    margin: 50px;
+    height: 50vh;
+}
+.courses div{
+    width: 22%;
+    padding: 20px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 5px 1px rgba(26, 26, 26, 0.484);
+    transition: all 0.3s ease-in;
+}
+.courses div:hover{
+    box-shadow: 1px 1px 5px 5px rgba(173, 167, 0, 0.846);
+    background-color: rgb(251, 255, 133);
+    padding: 40px;
+    border-radius: 8px;
+    text-align: justify;
+    width: 25%;
+}
+.courses div .JS{
+    width: 53%;
+}
+.courses div .Jquery,.php{
+    width: 100%;
+}
+.courses div p{
+    font-size: 1.2rem;
+}
+.courses div button{
+    font-size: 1.5rem;
+}
+.courseheading{
+    text-align: center;
+    font-size: 3rem;
+}
+
+
